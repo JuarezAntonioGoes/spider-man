@@ -1,0 +1,27 @@
+section {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+}
+
+section img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+}
+
+.spider-man {
+}
+
+section h1 {
+  position: relative;
+  font-family: spiderman;
+  color: #fff;
+  font-size: 6.5em;
+  margin: 2rem 3rem;
+}
